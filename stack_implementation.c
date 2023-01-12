@@ -68,7 +68,7 @@ void pop()
 void show()
 {
     int i;
-    if (top != 1)
+    if (top != -1)
     {
         for (i = 0; i < top; i++)
         {
